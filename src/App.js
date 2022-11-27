@@ -41,7 +41,7 @@ setMySearch(e.target.value)
 </div>
 <div className='container'>
 <form onSubmit={findSearch}>
-  <input className='search' placeholder="Enter ingredient name here" onChange={myRecepieSearch} value={mySearch}/>
+  <input className='search' placeholder="Enter ingredient name here..." onChange={myRecepieSearch} value={mySearch}/>
   <button onClick={()=>setWordSubmitted(mySearch)}>SEARCH</button>
 </form>
 </div>
